@@ -4,7 +4,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev":"nodemon src/index.js"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "javascript",
@@ -13,7 +13,8 @@
   "author": "Mubashshir Islam",
   "license": "ISC",
   "description": "",
-  "dependencies": {
-    "nodemon": "^3.1.7"
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "prettier": "^3.3.3"
   }
 }
